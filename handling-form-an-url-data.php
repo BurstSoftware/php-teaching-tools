@@ -1,3 +1,5 @@
+// Never trust request data directly:
+
 $name = $_POST["name"] ?? "";
 $page = $_GET["page"] ?? "home";
 
